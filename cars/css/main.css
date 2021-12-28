@@ -1,0 +1,79 @@
+/*general setting*/
+@font-face{
+    font-family: 'Comfortaa';
+src: url('../fonts/Comfortaa-Medium.ttf');
+}
+
+body{
+    background: black;
+    color: white;
+    font: 14px /28px;    
+    font-family: 'Comfortaa'
+}
+
+h1{
+    font-size: 45px;
+    letter-spacing: 4px;
+    margin-bottom: 20 px;
+    color: white;
+}
+
+/*grid settings*/
+.container{
+    width: 90%;
+    margin: 0 auto; /*ortalama*/
+    display: flex;
+}
+
+/*home settings*/
+header.logo{
+    margin-right: auto;
+}
+
+header.logo img{
+    display: block;
+    height: 10px;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    padding: 27px 17px;
+    display: block;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: aliceblue;
+    transition: all .5s ease;
+}
+
+.menu li a:last-child{
+    padding-right: 0;
+}
+
+.menu li:hover a{
+    background: red;
+    color: white;
+}
+
+#mainslider{
+    height: 500px;
+}
+
+.slider{
+    width: 100%;
+}
+
+#mainCaption{
+    //height: 200px;
+    //width: 300px;
+    background: black;
+}
+
+.caption{
+   // display: flex;
+    flex-direction: column;
+    text-align: right;
+    color: white;
+}
